@@ -1,0 +1,40 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b6acacf4-87d2-477a-9d31-c77fd19d2fc2"
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "vim-mode"
+      "atom-sync"
+    ]
+    packagesWithKeymapsDisabled: [
+      "vim-mode"
+      "atom-dark-ui"
+      "autocomplete"
+    ]
+    themes: [
+      "genesis-ui"
+      "solarized-dark-syntax"
+    ]
+  docblockr:
+    align_tags: "shallow"
+    deep_indent: true
+    development_mode: true
+  editor:
+    backUpBeforeSaving: true
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "8daa5ef0-9219-b6dc-e2b9-33cc480831b0"
+  linter:
+    showErrorTabLine: true
+  "linter-gcc":
+    gccDebug: true
+    gccIncludePaths: " ../*"
+    gccSuppressWarnings: true
+  minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

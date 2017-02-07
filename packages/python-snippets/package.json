@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+        "spec": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-116830-16647-1yb920t"
+    ]
+  ],
+  "_from": "../d-116830-16647-1a7r37i/package.tgz",
+  "_id": "python-snippets@1.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/python-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+    "spec": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116830-16647-1a7r37i/package.tgz",
+  "_shasum": "b2f493fddf59e2fd3c64e42f2b84c186e82aa389",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-116830-16647-1a7r37i/package.tgz",
+  "_where": "/tmp/apm-install-dir-116830-16647-1yb920t",
+  "bugs": {
+    "url": "https://github.com/adiultra/python-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "Python Snippets for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/adiultra/python-snippets#readme",
+  "keywords": [
+    "python",
+    "tkinter",
+    "snippets"
+  ],
+  "license": "MIT",
+  "name": "python-snippets",
+  "optionalDependencies": {},
+  "readme": "# Python Snippets for Atom\n\n## Install :\n\n`apm install python-snippets`\n\n#Note :fire:\n\nThis package is Under considerable development. Please don't Be too excited. Also You can help if you want to. :smile:\n\n## Features\n\n- Some important python 3.0 snippets of regular usage.\n\n- Also includes tkinter snippets for gui-programming in python.\n\n\n## Snippets list\n\n> The tkinter snippets assume that you have imported tkinter as tk\n> `import tkinter as tk`\n\n```css\n    #  Normal missing Functionality\n\n  'def'\n    'body': '''\n    def ${1:fname}(${2:arg}):\n        ${3:pass}\n    '''\n  'defi'\n    'body': '''\n    def __init__(self, ${1:arg}):\n        ${2:pass}\n    '''\n  'print'\n    'body': 'print($1)'\n\n\n    # tkinter snippets\n  'button'\n    'body': 'tk.Button(${1:root}, text=\"$2\")'\n\n  'label'\n    'body': 'tk.Label(${1:root}, text=\"$2\")'\n\n  'frame'\n    'body': 'tk.Frame(${1:root})'\n\n  'entry'\n    'body': 'tk.Entry(${1:root})'\n\n  'grid'\n    'body': 'grid(row=$1, colomn=$2)'\n\n  'sticky'\n    'body': 'sticky=tk.$1'\n\n  'checkbutton'\n    'body': 'tk.Checkbutton(${1:root}, text=\"$2\")'\n\n  'mainloop'\n    'body': 'mainloop()'\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiultra/python-snippets.git"
+  },
+  "version": "1.9.0"
+}

@@ -1,0 +1,51 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.shell':
+  'shellheader':
+    'prefix': 'bhead'
+    'body': """#===============================================================
+    \n#########This is a  ${1:shell} script created by Wei Zhao#########
+    \n#Filename:${2:As you see};
+    \n#Address:Jensen lab, Caltech, Pasadena;
+    \n#Email:zhaoweicryoem AT gmail.com;
+    \n#Note:${3:I believe you can easily understand this~~~}
+    \n#===============================================================
+    \n\n#!bin/sh
+    \n $4"""
+  'echo color':
+    'prefix': 'ecolor'
+    'body': "\\033[${1:42};${2:31m} ${3:text} \\033[0m $4"
+
+  # to add color to echo
+
+".source":
+  'cheader':
+    'prefix': 'chead'
+    'body': """/**===============================================================
+    \n#########This is a ${1:c} script created by Wei Zhao#########
+    \nFilename:${2:As you see};
+    \nAddress:Jensen lab, Caltech, Pasadena;
+    \nEmail:zhaoweicryoem AT gmail.com;
+    \nNote:${3:I believe you can easily understand this~~~}
+    \n====================================================================**/
+    \n#include <stdio.h>
+    \n $4"""
